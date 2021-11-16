@@ -1,0 +1,49 @@
+@media screen and (max-width:1300px) and (min-width:899px) {
+    body {
+        .container {
+            .home {
+                // background: #000;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    body {
+        .container {
+            .navigation {
+                // display: none;
+                .nav-container {
+                    .phone-nav-btn {
+                        display: block;
+                    }
+                    nav {
+                        display: none;
+                    }
+                    .phone-search {
+                        display: inline-block;
+                    }
+                }
+            }
+            .home {
+                // background: rgb(204, 134, 134);
+                .home-container {
+                    flex-direction: column;
+                    .left,
+                    .right {
+                        height: 80vh;
+                        width: 100%;
+                    }
+                    .right {
+                        text-align: center;
+                        .main-text {
+                            width: 100%;
+                            padding: 0;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
